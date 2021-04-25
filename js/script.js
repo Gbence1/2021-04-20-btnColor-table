@@ -31,6 +31,8 @@ function addRow() {
 };
 
 function deleteRow() {
-    body.removeChild(body.lastChild);
-    number -= 1;
+    if (number > 0) {
+        body.removeChild(body.lastChild);
+        number -= 1;
+    };
 };

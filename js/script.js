@@ -22,7 +22,7 @@ function addRow() {
     let row = body.insertRow();
     let cell1 = row.insertCell();
     number += 1;
-    let text1 = document.createTextNode(number)
+    let text1 = document.createTextNode(number);
     cell1.appendChild(text1);
     let cell2 = row.insertCell();
     let input = inputText.value;

@@ -10,9 +10,9 @@ btnAdd.addEventListener("click", addRow);
 btnDelete.addEventListener("click", deleteRow);
 
 function randomColor() {
-    let r = Math.floor(Math.random() * 255);
-    let g = Math.floor(Math.random() * 255);
-    let b = Math.floor(Math.random() * 255);
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
     let rgbBg = "background-color: rgb(" + r + ", " + g + ", " + b + "); ";
     let rgbBorder = "border-color: rgb(" + r + ", " + g + ", " + b + "); ";
     btnColor.style = rgbBg + rgbBorder;
